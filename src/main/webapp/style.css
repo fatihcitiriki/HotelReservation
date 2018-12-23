@@ -1,0 +1,27 @@
+body {
+	padding-bottom: 25px;
+}
+
+.header {
+	background: url('images/header.png');
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.content {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+@media (max-width: 991.98px) {
+	.header {
+		height: 120px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.header {
+		height: 80px;
+	}
+}
